@@ -1,2 +1,2 @@
 FROM alpine:latest
-RUN apk add gcc cmake
+RUN apk add gcc g++ cmake make musl-dev
