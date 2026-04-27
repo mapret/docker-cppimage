@@ -12,7 +12,7 @@ RUN apt update && \
 
 # Glfw dependencies
 RUN apt update && \
-  apt install -y libgl1-mesa-dev libglu1-mesa libxrandr-dev libxinerama-dev libxcursor-dev libxi-dev pkg-config \
+  apt install -y libgl1-mesa-dev libglu1-mesa-dev libxrandr-dev libxinerama-dev libxcursor-dev libxi-dev pkg-config \
   && rm -rf /var/lib/apt/lists/*
 
 
