@@ -2,7 +2,7 @@ FROM ubuntu:24.04
 
 # Build dependencies
 RUN apt update && \
-  apt install -y clang cmake ninja-build \
+  apt install -y clang clang-tools cmake ninja-build \
   && rm -rf /var/lib/apt/lists/*
 
 # Vcpkg dependencies
